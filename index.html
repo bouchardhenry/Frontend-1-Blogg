@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloggen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+    </header>
+
+    <main>
+        <section class="input-container">
+            <h1>Vad vill du dela idag?</h1>
+            <form class="input-form">
+
+                <div class="input-info">
+                    <div class="input-info-child"><label for="title">Rubrik</label><input type="text" id="titleInput"
+                            name="title" placeholder="Skriv in din rubrik här" class="textarea-field"></div>
+                    <div class="input-info-child"><label for="username">Författare</label><input type="text"
+                            id="usernameInput" name="username" placeholder="Skriv ditt namn här" class="textarea-field">
+                    </div>
+                </div>
+
+                <div class="input-message">
+                    <label for="message">Meddelande</label><textarea id="messageInput" name="message" rows="6"
+                        placeholder="Skriv ditt meddelande här" class="textarea-field"></textarea>
+                </div>
+
+                <div class="input-submit">
+                    <button type="submit" id="btnSend" class="btnSend">Lägg upp</button>
+                </div>
+
+            </form>
+
+        </section>
+
+        <section class="blogg-container" id="bloggContainer">
+            
+        </section>
+
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
