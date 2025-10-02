@@ -96,7 +96,7 @@ if (!title.trim() || !username.trim() || !message.trim()) {
 
 const likeButton = document.createElement('button');
 const likeIcon = document.createElement('img');
-likeIcon.src = './Images/icons8-thumbs-up-64.png';
+likeIcon.src = 'Images/icons8-thumbs-up-64.png';
 likeButton.classList.add('likeButton');
 likeIcon.classList.add('likeIcon');
 actionSection.appendChild(likeButton);
