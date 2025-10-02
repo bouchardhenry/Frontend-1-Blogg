@@ -50,7 +50,7 @@ if (!title.trim() || !username.trim() || !message.trim()) {
   commentInput.placeholder = 'Skriv en kommentar...'
   commentButton.classList.add('commentButton')
 
-  dateAndTime.textContent = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()} • ${date.getHours()}:${date.getMinutes()}`
+  dateAndTime.textContent = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()} • ${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`
   newtitlediv.textContent = title
   newusernamediv.textContent = `Av: ${username} (Publicerat: ${dateAndTime.textContent})`
   newmessagediv.textContent = message
