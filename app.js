@@ -96,7 +96,7 @@ if (!title.trim() || !username.trim() || !message.trim()) {
 
 const likeButton = document.createElement('button');
 const likeIcon = document.createElement('img');
-likeIcon.src = '/Frontend-1-Blogg/images/icons8-thumbs-up-64.png';
+likeIcon.src = '/Frontend-1-Blogg/Images/icons8-thumbs-up-64.png';
 likeButton.classList.add('likeButton');
 likeIcon.classList.add('likeIcon');
 actionSection.appendChild(likeButton);
@@ -132,7 +132,7 @@ likeButton.addEventListener('click', (e) => {
 
 const dislikeButton = document.createElement('button');
 const dislikeIcon = document.createElement('img');
-dislikeIcon.src = '/Frontend-1-Blogg/images/icons8-thumbs-down-64.png';
+dislikeIcon.src = '/Frontend-1-Blogg/Images/icons8-thumbs-down-64.png';
 dislikeButton.classList.add('likeButton');
 dislikeIcon.classList.add('likeIcon');
 actionSection.appendChild(dislikeButton);
@@ -168,7 +168,7 @@ dislikeButton.addEventListener('click', (e) => {
 
   const deleteButton = document.createElement('button');
   const icon = document.createElement('img');
-  icon.src = '/Frontend-1-Blogg/images/icons8-trash-52.png';
+  icon.src = '/Frontend-1-Blogg/Images/icons8-trash-52.png';
   deleteButton.classList.add('deleteButton');
   icon.classList.add('trashIcon');
   actionSection.appendChild(deleteButton);
