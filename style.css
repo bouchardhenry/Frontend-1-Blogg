@@ -242,3 +242,15 @@ textarea {
     border-radius: 10px;
     background-color: #79797938;
 }
+
+/* Responsive design for tablet och ner */
+
+@Media (max-width: 600px) {
+    .input-info {
+        flex-direction: column;
+    }
+
+    .input-info-child {
+        width: 100%;
+    }
+}
