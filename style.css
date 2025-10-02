@@ -245,7 +245,7 @@ textarea {
 
 /* Responsive design for tablet och ner */
 
-@Media (max-width: 600px) {
+@Media (max-width: 768px) {
     .input-info {
         flex-direction: column;
     }
