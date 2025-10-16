@@ -35,9 +35,6 @@ if (!title.trim() || !username.trim() || !message.trim()) {
   const commentInput = document.createElement('textarea')
   const commentButton = document.createElement('button')
 
-
-  form.reset();
-
 // Lägg till klasser och innehåll
 
   postCard.classList.add('postCard')
@@ -178,4 +175,8 @@ dislikeButton.addEventListener('click', (e) => {
     e.preventDefault();
     bloggSection.removeChild(postCard);
   })
+
+  // Rensa formuläret
+  
+  form.reset();
 });
