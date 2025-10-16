@@ -253,4 +253,21 @@ textarea {
     .input-info-child {
         width: 100%;
     }
+
+    .titleDiv {
+        font-size: 1.2rem;
+        margin-right: 0.5rem;
+    }
+
+    .usernameDiv {
+        margin-left: 0.5rem;
+        overflow-wrap: anywhere;
+        white-space: normal;
+        max-width: 50%;
+        font-size: 0.8rem;
+    }
+
+    .commentInput {
+        width: 95%;
+    }
 }
